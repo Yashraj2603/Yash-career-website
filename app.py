@@ -14,8 +14,9 @@ class Job(db.Model):
     location = db.Column(db.String(100), nullable=False)
     description = db.Column(db.Text, nullable=False)
 
-# Create the database tables
-db.create_all()
+# Create the database tables within the application context
+with app.app_context():
+    db.create_all()
 
 @app.route('/')
 def home():
