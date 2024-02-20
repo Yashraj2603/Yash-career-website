@@ -5,11 +5,18 @@
 	<meta charset="UTF-8"> 
 	<meta name="viewport" content= 
 		"width=device-width, initial-scale=1.0"> 
+<link rel="apple-touch-icon" sizes="180x180" href="static/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="static/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="static/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
 	<title> 
 		Yash Career Website
 	</title> 
 	
 	<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+	<meta name="Description" content="This is job search website.You have to first login , if you already have account else signup to use service">
+	<meta name="keywords" content="python developer,web developer,job,recruitement,Data Science, html">
+	<meta name="author" content="Yash Raj">
 </head> 
 
 <body> 
@@ -26,13 +33,14 @@
 		</ul> 
 	</nav> 
 	<section class ="sign">
-		<h1 style="color: brown;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Login</h1>
+		<h1 style="color: brown;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">User Login(already registered)</h1>
 		<form action="" method="get">
 			<label for="Username">Username</label>
 			<input type="text" id ="Username" name="Username"><br>
 			<label for="Password" >Password</label>
 			<input type="password" id="Password" name="Password"><br>
-			<button type="submit" name="signin" > Signin</button>
+			<button type="submit" name="signin" style="background-color: burlywood;"><b>Signin</b></button><br>
+			<a href="#home">Click on this link if you are not registered</a>
 		</form>
 	</section>
 	<section class="search"> 

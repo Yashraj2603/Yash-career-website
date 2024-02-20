@@ -12,7 +12,7 @@ body {
 } 
 
 header { 
-	background-color: red; 
+	background-color: olivedrab; 
 	color: #fff; 
 	text-align: center; 
 	padding: 1rem 0; 
@@ -130,7 +130,7 @@ footer {
 	color: #fff; 
 	padding: 1rem 0; 
 }
-.sign { color: #ff6600;
+.sign { color: olive;
 	text-align: left; 
 	padding: 1rem 0; 
 

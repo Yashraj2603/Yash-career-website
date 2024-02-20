@@ -1,0 +1,9 @@
+This favicon was generated using the following font:
+
+- Font Title: Narnoor
+- Font Author: Original font copyright (c) 2014-2017 CDAST, University of Hyderabad, Hyderabad (cdast@uohyd.ernet.in).
+Additions and modifications copyright (c) 2015-2023 SIL International (https://www.sil.org/).
+Latin glyphs copyright (c) 2010, 2012, 2014, 2021 Adobe Systems Incorporated
+(http://www.adobe.com/), with Reserved Font Name 'Source'.
+- Font Source: http://fonts.gstatic.com/s/narnoor/v7/cIf4MaFWuVo-UTyP_JWERGEsnIJkWL4.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))
